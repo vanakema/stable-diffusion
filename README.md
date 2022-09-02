@@ -405,6 +405,10 @@ For older changelogs, please visit **[CHANGELOGS](CHANGELOG.md)**.
 
 There are separate installation walkthroughs for [Linux](#linux), [Windows](#windows) and [Macintosh](#Macintosh)
 
+## Docker
+1. Build the docker image using the command `docker build . -t vanakema/stable-diffusion`
+2. Run the image using `docker run --gpus all -it -v ~/git/stable-diffusion:/app vanakema/stable-diffusion bash`
+
 ## Linux
 
 1. You will need to install the following prerequisites if they are not already available. Use your
